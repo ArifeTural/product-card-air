@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+    height: 100vh;
+    background-color: #EDEDED;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    background-color: white;
+    padding: 3rem 3rem 3rem 3rem;
+    width: 90%;
+    height: 80%;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 3rem 3rem 3rem 3rem grey;
+    border-radius: 10px; 
+
+}
+
+.img{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+
+    max-width: 600px;
+    max-height: 400px;
+}
+
+.sag{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-overflow: ellipsis;
+    
+
+}
+
+h1{
+    font-size: 32px;
+}
+
+h1 span{
+    color: white;
+    border: 1px solid #2175F5;
+    font-size: 18px;
+    background-color: #2175F5;
+    padding: 0.3rem;
+    border-radius: 0.7rem;
+}
+
+h2{
+    font-size: 19px;
+}
+p{
+    color: #555555;
+    font-size: 1rem;
+  
+}
+
+.str button{
+    border-radius: 10px;
+    padding: 10px 10px 10px 10px;
+    border: 1px solid #EEEEEE;
+    margin: 10px;
+    font-size: 18px ;
+    width: 80px;
+    
+
+}
+
+
+.str  span button{
+    background-color:#2175F5 ;
+    color: white;
+    border-radius: 10px;
+    border: 1px solid #2175F5;
+    margin: 10px;
+  
+}
+
+.add{
+    display: flex;
+    gap: 2rem;
+   
+  
+}
+
+.add button{
+    color: white;
+    background-color: #2175F5;
+    border: 2px solid #2175F5;
+    padding: 0.3rem 1rem;
+    font-size: 18px;
+}
+
+
+@media screen and (max-width:1120px){
+    .container{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+
+   
+
+}
+
+@media screen and (max-width:750px){
+    img{
+        padding-right: 1.5rem;
+       max-width: 18.75rem; 
+    }
+
+    .container{
+        margin: 0;
+        padding: 0%;
+        overflow: scroll;
+    }
+    body{
+        padding: 0;
+    }
+}
+
+
